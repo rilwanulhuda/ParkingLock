@@ -3,4 +3,10 @@ public struct ParkingLockPackage {
 
     public init() {
     }
+    
+    public func testAccessibility() {
+        let text1 = "text 1"
+        let text2 = "text 2"
+        print("\(text1) - \(text2)")
+    }
 }
